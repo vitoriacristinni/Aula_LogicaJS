@@ -8,20 +8,25 @@
 </head>
 <body>
     <script>
-        let lados = parseInt(prompt("Insira o número de lados desejavel: "));
+        
+        let lados = parseInt(prompt("Insira o número de lados desejavel no polígono: "));
+        let cm = prompt("Quantos cm em cada lado?");
+        let triangulo = (cm * 3);
+        let quadrado = (cm * 4);
+        let pentagono = (cm * 5);
 
         if(lados == 3){
-            document.write("Este polígono é um Triângulo de 15cm")
+            document.write("Este triângulo tem " + lados + " lados e o valor do perímetro é: " + triangulo + "cm")
         }else if(lados == 4){
-            document.write("Este polígono é um Quadrado de 20cm")
+            document.write("Este quadrado tem " + lados + " lados e o valor do perímetro é: " + quadrado + "cm")
         }else if(lados == 5){
-            document.write("Este polígono é um Pentágono de 25cm")
+            document.write("Este pentágono tem " + lados + " lados e o valor do perímetro é: " + pentagono + "cm")
         }else if(lados < 3){
             document.write("Não é um polígono")
         }else{
             document.write("Polígono não identificado")
         }
-
+        
     </script>
 </body>
 </html>
