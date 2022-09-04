@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica/Javascript</title>
+</head>
+<body>
+    <script>
+        let conta = prompt("Selecione a operação desejada, usando o seguintes digitos: 1. Adição, 2. Subtração, 3. Divisão, 4. Multiplicação");
+        let valor1 = parseInt(prompt("Insira o primeiro valor: "));
+        let valor2 = parseInt(prompt("Insira o segundo valor: "));
+
+        if(conta == 1){
+            (conta = valor1 + valor2) 
+        }else if(conta == 2){
+            (conta = valor1 - valor2)
+        }else if(conta == 3){
+            (conta = valor1 / valor2)
+        }else if(conta == 4){
+            (conta = valor1 * valor2)
+        }
+
+        document.write("O resultado da operação é: " + conta)
+    </script>
+</body>
+</html>

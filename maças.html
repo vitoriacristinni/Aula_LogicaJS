@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica/Javascript</title>
+</head>
+<body>
+    <script>
+        let macas = parseInt(prompt("Olá, quantas maças você comprou?"));
+
+        let compra1 = (macas * "3.50");
+        let compra2 = (macas * "2.50");
+
+        if(macas < 12){
+            document.write("Você comprou " + macas + " maças, o valor total da compra é: " + compra1 + " reais")
+        }else if(macas >= 12){
+            document.write("Você comprou " + macas + " maças, o valor total da compra é: " + compra2 + " reais")
+        }
+    </script>
+</body>
+</html>

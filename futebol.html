@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica/Javascript</title>
+</head>
+<body>
+    <script>
+        let palmeiras = parseInt(prompt("Quantos gols foram feitos pelo Palmeiras?"));
+        let corinthians = parseInt(prompt("Quantos gols foram feitos pelo Corinthians?"));
+
+        if(palmeiras > corinthians){
+            document.write("Palmeiras ganhou o jogo com " + palmeiras + " gols")
+        }else if(palmeiras == corinthians){
+            document.write("EMPATE")
+        }else{
+            document.write("Corinthians ganhou o jogo com " + corinthians + " gols")
+        }
+    </script>
+</body>
+</html>
